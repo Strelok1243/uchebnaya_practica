@@ -1,0 +1,149 @@
+#areaForLoader{
+	display: flex;
+	background-color: #192428;
+  	overflow: hidden;
+  	position: fixed;
+  	left: 0;
+  	top: 0;
+  	right:0;
+	bottom:0;
+	align-items: center;
+	justify-content: center;
+}
+
+.preloader img{
+	height: 200px;
+	width: 200px;
+	animation-name: rotation;
+    animation-duration: 1s;
+    animation-iteration-count: 3;
+    animation-timing-function: linear;
+}
+
+@keyframes rotation {
+    0% {
+        transform:rotate(0deg);
+    }
+    100% {
+        transform:rotate(360deg);
+    }
+}
+
+html, body{
+	height: 100%;
+}
+
+body {
+	background-image: url(images/fon.jpg);
+	margin: 0px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 17px;
+}
+
+.logo object{
+	width: 199px;
+	height: 80px;
+	padding-right: 755px;
+}
+
+#nav li a {
+	all: unset;
+	transition: all 1s;
+	padding: 10px 15px;
+}
+
+#nav li a:hover {
+	background: gray;
+	color: blue;
+}
+
+#nav{
+	position: fixed;
+	color: #fff;
+	list-style-type: none;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px 40px;
+	padding-left: 20px;
+	background-color: #192428;
+}
+a{
+	text-decoration: none;
+}
+li {
+	display: inline-block;
+	padding: 30px 20px;
+	background: transparent;
+}
+
+article {
+	background-color: #192428;
+	margin: 39px;
+	transition: all 1s;
+	height: 75%;
+	padding: 20px 40px;
+	display: inline-block;
+}
+
+article:hover {
+	background-color: #192432;
+	border: 2px solid white;
+}
+
+.game{
+	background-color: #192428;
+}
+
+.text-area {
+	color: white;
+}
+
+.text-area p {
+	font-size: 17px;
+}
+
+.text-area h1 {
+	font-size: 25px;
+}
+
+.welcome-text {
+	height: 300px;
+	margin: auto 0;
+	text-align: center;
+	color: white;
+	padding-top: 230px;
+
+}
+
+.welcome-label1{
+	font-size: 42px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.welcome-label2{
+	font-size: 25px;
+}
+.game__content{
+
+	color: white;
+}
+
+.new{
+	padding-top: 25px;
+	font-size: 42px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: auto 0;
+	text-align: center;
+	color: white;
+}
+
+h2{
+	color: white;
+}
+#backgame{
+	background-image: url(backgame.jpg);
+	margin: 0px;
+}

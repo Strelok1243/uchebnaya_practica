@@ -24,6 +24,13 @@ body{
 	z-index: 7;
 }
 
+.orbit_mercury{
+	width: 392px;
+	height: 392px;
+	border: 1px solid #3f3f3f;
+	border-radius: 50%;
+	position: absolute;
+}
 
 @keyframes rotation_Mercury {
 	0% {
@@ -41,6 +48,13 @@ body{
 	z-index: 6;
 }
 
+.orbit_venus{
+	width: 520px;
+	height: 520px;
+	border: 1px solid #3f3f3f;
+	border-radius: 50%;
+	position: absolute;
+}
 
 @keyframes rotation_Venus {
 	0% {
@@ -59,6 +73,13 @@ body{
 	z-index: 3;
 }
 
+.orbit_erth{
+	width: 715px;
+	height: 715px;
+	border: 1px solid #3f3f3f;
+	border-radius: 50%;
+	position: absolute;
+}
 
 @keyframes rotation_Erth {
 	0% {
@@ -83,6 +104,13 @@ body{
 	animation-timing-function: linear;
 }
 
+.orbit_moon{
+	width: 77px;
+	height: 77px;
+	border: 1px solid #3f3f3f;
+	border-radius: 50%;
+	position: absolute;
+}
 
 @keyframes rotation_Moon {
 	0% {
@@ -101,6 +129,13 @@ body{
 	z-index: 2;
 }
 
+.orbit_mars{
+	width: 940px;
+	height: 940px;
+	border: 1px solid #3f3f3f;
+	border-radius: 50%;
+	position: absolute;
+}
 
 @keyframes rotation_Mars {
 	0% {
@@ -125,6 +160,13 @@ body{
 	animation-timing-function: linear;
 }
 
+.orbit_deimos{
+	width: 40px;
+	height: 40px;
+	border: 1px solid #3f3f3f;
+	border-radius: 50%;
+	position: absolute;
+}
 
 @keyframes rotation_Deimos {
 	0% {
@@ -149,6 +191,13 @@ body{
 	animation-timing-function: linear;
 }
 
+.orbit_phobos{
+	width: 60px;
+	height: 60px;
+	border: 1px solid #3f3f3f;
+	border-radius: 50%;
+	position: absolute;
+}
 
 @keyframes rotation_Phobos {
 	0% {
@@ -184,6 +233,13 @@ body{
 	z-index: 11;
 }
 
+.orbit_jupiter{
+	width: 2200px;
+	height: 2200px;
+	border: 1px solid #3f3f3f;
+	border-radius: 50%;
+	position: absolute;
+}
 
 @keyframes rotation_Jupiter {
 	0% {
@@ -209,6 +265,13 @@ body{
 	animation-timing-function: linear;
 }
 
+.orbit_io{
+	width: 240px;
+	height: 240px;
+	border: 1px solid #3f3f3f;
+	border-radius: 50%;
+	position: absolute;
+}
 
 @keyframes rotation_Io {
 	0% {
@@ -231,6 +294,14 @@ body{
 	animation-duration: 400s;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
+}
+
+.orbit_europe{
+	width: 300px;
+	height: 300px;
+	border: 1px solid #3f3f3f;
+	border-radius: 50%;
+	position: absolute;
 }
 
 @keyframes rotation_Europe {
@@ -256,6 +327,13 @@ body{
 	animation-timing-function: linear;
 }
 
+.orbit_ganimed{
+	width: 345px;
+	height: 345px;
+	border: 1px solid #3f3f3f;
+	border-radius: 50%;
+	position: absolute;
+}
 
 @keyframes rotation_Ganimed {
 	0% {
@@ -280,6 +358,13 @@ body{
 	animation-timing-function: linear;
 }
 
+.orbit_callisto{
+	width: 395px;
+	height: 395px;
+	border: 1px solid #3f3f3f;
+	border-radius: 50%;
+	position: absolute;
+}
 
 @keyframes rotation_Callisto {
 	0% {
@@ -298,6 +383,13 @@ body{
 	z-index: 16;
 }
 
+.orbit_saturn{
+	width: 3200px;
+	height: 3200px;
+	border: 1px solid #3f3f3f;
+	border-radius: 50%;
+	position: absolute;
+}
 
 @keyframes rotation_Saturn {
 	0% {
@@ -322,6 +414,13 @@ body{
 	animation-timing-function: linear;
 }
 
+.orbit_mimas{
+	width: 200px;
+	height: 200px;
+	border: 1px solid #3f3f3f;
+	border-radius: 50%;
+	position: absolute;
+}
 
 @keyframes rotation_Mimas {
 	0% {
@@ -344,6 +443,14 @@ body{
 	animation-duration: 1200s;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
+}
+
+.orbit_callipso{
+	width: 280px;
+	height: 280px;
+	border: 1px solid #3f3f3f;
+	border-radius: 50%;
+	position: absolute;
 }
 
 @keyframes rotation_Callipso {
@@ -369,6 +476,13 @@ body{
 	animation-timing-function: linear;
 }
 
+.orbit_titan{
+	width: 300px;
+	height: 300px;
+	border: 1px solid #3f3f3f;
+	border-radius: 50%;
+	position: absolute;
+}
 
 @keyframes rotation_Titan {
 	0% {
@@ -387,6 +501,13 @@ body{
 	z-index: 20;
 }
 
+.orbit_uran{
+	width: 4800px;
+	height: 4800px;
+	border: 1px solid #3f3f3f;
+	border-radius: 50%;
+	position: absolute;
+}
 
 @keyframes rotation_Uran {
 	0% {
@@ -403,7 +524,7 @@ body{
 	justify-content: center;
 	position: absolute;
 	width: 130px;
-	height: 130px;
+	height: 83px;
 	z-index: 21;
 	animation-name: rotation_Uran;
 	animation-duration: 2400s;
@@ -411,6 +532,13 @@ body{
 	animation-timing-function: linear;
 }
 
+.orbit_miranda{
+	width: 180px;
+	height: 180px;
+	border: 1px solid #3f3f3f;
+	border-radius: 50%;
+	position: absolute;
+}
 
 @keyframes rotation_Miranda {
 	0% {
@@ -427,12 +555,20 @@ body{
 	justify-content: center;
 	position: absolute;
 	width: 130px;
-	height: 130px;
+	height: 83px;
 	z-index: 22;
 	animation-name: rotation_Uran;
 	animation-duration: 2400s;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
+}
+
+.orbit_oberon{
+	width: 240px;
+	height: 240px;
+	border: 1px solid #3f3f3f;
+	border-radius: 50%;
+	position: absolute;
 }
 
 @keyframes rotation_Oberon {
@@ -452,6 +588,13 @@ body{
 	z-index: 23;
 }
 
+.orbit_neptun{
+	width: 6000px;
+	height: 6000px;
+	border: 1px solid #3f3f3f;
+	border-radius: 50%;
+	position: absolute;
+}
 
 @keyframes rotation_Neptun {
 	0% {
@@ -476,13 +619,20 @@ body{
 	animation-timing-function: linear;
 }
 
+.orbit_proteus{
+	width: 200px;
+	height: 200px;
+	border: 1px solid #3f3f3f;
+	border-radius: 50%;
+	position: absolute;
+}
 
 @keyframes rotation_Proteus {
 	0% {
-		transform: rotate(0deg) translateX(120px) rotate(0deg);
+		transform: rotate(0deg) translateX(100px) rotate(0deg);
 	}
 	100% {
-		transform: rotate(360deg) translateX(120px) rotate(-360deg);
+		transform: rotate(360deg) translateX(100px) rotate(-360deg);
 	}
 }	
 
@@ -498,6 +648,14 @@ body{
 	animation-duration: 3600s;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
+}
+
+.orbit_triton{
+	width: 250px;
+	height: 250px;
+	border: 1px solid #3f3f3f;
+	border-radius: 50%;
+	position: absolute;
 }
 
 @keyframes rotation_Triton {
@@ -517,6 +675,13 @@ body{
 	z-index: 26;
 }
 
+.orbit_pluto{
+	width: 7000px;
+	height: 7000px;
+	border: 1px solid #3f3f3f;
+	border-radius: 50%;
+	position: absolute;
+}
 
 @keyframes rotation_Pluto {
 	0% {
@@ -539,6 +704,14 @@ body{
 	animation-duration: 4600s;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
+}
+
+.orbit_haron{
+	width: 60px;
+	height: 60px;
+	border: 1px solid #3f3f3f;
+	border-radius: 50%;
+	position: absolute;
 }
 
 @keyframes rotation_Haron {
